@@ -1,0 +1,29 @@
+{
+    "name": "$localWorkspaceFolderBasename}",
+    "context": ".",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "ms-python.isort",
+                "ms-toolsai.jupyter",
+                "njpwerner.autodocstring",
+                "brunnerh.file-properties-viewer",
+                "christian-kohler.path-intellisense",
+                "mosapride.zenkaku",
+                "donjayamanne.githistory",
+                "mutantdino.resourcemonitor",
+                "innerlee.nvidia-smi",
+                "GrapeCity.gc-excelviewer",
+                "mechatroner.rainbow-csv"
+            ]
+        }
+    },
+    "runArgs": [
+        "--gpus=all"
+    ],
+    "postCreateCommand": []
+}
